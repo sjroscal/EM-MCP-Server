@@ -1,0 +1,17 @@
+# Environment / credentials
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Logs
+*.log
+nohup.out
+
+# IDE
+.vscode/
+.idea/
