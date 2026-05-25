@@ -4,20 +4,20 @@ An MCP (Model Context Protocol) server that exposes Oracle Enterprise Manager
 monitoring data to AI assistants like AI Client via natural language queries.
 
 ## Architecture
-AI Client Desktop / Agent Factory 
-│
-│  MCP protocol (SSE / streamable-http)
-▼
-em_mcp_server_restapi.py
-│
-├── EM REST API  (GET /em/api/*)
-└── EM SQL API   (POST /em/websvcs/restful/emws/.../executesql/...)
-│
-▼
-Oracle Enterprise Manager 24ai
-│
-▼
-Oracle SYSMAN Repository
+AI Client / Private Agent Factory <br>
+│<br>
+│  MCP protocol (SSE / streamable-http)<br>
+▼<br>
+em_mcp_server_restapi.py<br>
+│<br>
+└── EM REST API  (GET /em/api/*)<br>
+└── EM SQL API   (POST /em/websvcs/restful/emws/.../executesql/...)<br>
+│<br>
+▼<br>
+Oracle Enterprise Manager 24ai<br>
+│<br>
+▼<br>
+Oracle SYSMAN Repository<br>
 
 ## Tools
 
@@ -64,7 +64,7 @@ vi config/.env
 
 ```ini
 EM_BASE_URL=https://your-em-host:7799/em
-EM_USER=sysman
+EM_USER=emmcpuser
 EM_PASSWORD=your_password
 EM_SSL_VERIFY=false
 EM_CA_BUNDLE=
