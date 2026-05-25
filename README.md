@@ -4,7 +4,7 @@ An MCP (Model Context Protocol) server that exposes Oracle Enterprise Manager
 monitoring data to AI assistants like AI Client via natural language queries.
 
 ## Architecture
-AI Client Desktop / Agent Factory
+AI Client Desktop / Agent Factory 
 │
 │  MCP protocol (SSE / streamable-http)
 ▼
