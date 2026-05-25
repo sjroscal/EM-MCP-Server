@@ -22,8 +22,8 @@ Config — .env file search order:
   3. ./.env
 
 .env template:
-  EM_BASE_URL=https://152.67.108.88:7799/em
-  EM_USER=sysman
+  EM_BASE_URL=https://111.111.111.111:7803/em
+  EM_USER=emmcpuser
   EM_PASSWORD=YourPasswordHere
   EM_SSL_VERIFY=false
   EM_TIMEOUT=60
